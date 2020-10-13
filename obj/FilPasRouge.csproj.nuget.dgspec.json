@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "d:\\cesi\\RIL_2\\Trimestre 1\\C#\\CESI-RIL-2019-master\\FilPasRouge\\FilPasRouge.csproj": {}
+  },
+  "projects": {
+    "d:\\cesi\\RIL_2\\Trimestre 1\\C#\\CESI-RIL-2019-master\\FilPasRouge\\FilPasRouge.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\cesi\\RIL_2\\Trimestre 1\\C#\\CESI-RIL-2019-master\\FilPasRouge\\FilPasRouge.csproj",
+        "projectName": "FilPasRouge",
+        "projectPath": "d:\\cesi\\RIL_2\\Trimestre 1\\C#\\CESI-RIL-2019-master\\FilPasRouge\\FilPasRouge.csproj",
+        "packagesPath": "C:\\Users\\sylvain\\.nuget\\packages\\",
+        "outputPath": "d:\\cesi\\RIL_2\\Trimestre 1\\C#\\CESI-RIL-2019-master\\FilPasRouge\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sylvain\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
