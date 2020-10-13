@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\cesi\\RIL_2\\Trimestre 1\\C#\\CESI-RIL-2019-master\\FilPasRouge\\FilPasRouge.csproj": {}
+    "D:\\cesi\\RIL_2\\Trimestre 1\\C#\\CESI-RIL-2019-master\\FilPasRouge\\FilPasRouge.csproj": {}
   },
   "projects": {
-    "d:\\cesi\\RIL_2\\Trimestre 1\\C#\\CESI-RIL-2019-master\\FilPasRouge\\FilPasRouge.csproj": {
+    "D:\\cesi\\RIL_2\\Trimestre 1\\C#\\CESI-RIL-2019-master\\FilPasRouge\\FilPasRouge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\cesi\\RIL_2\\Trimestre 1\\C#\\CESI-RIL-2019-master\\FilPasRouge\\FilPasRouge.csproj",
+        "projectUniqueName": "D:\\cesi\\RIL_2\\Trimestre 1\\C#\\CESI-RIL-2019-master\\FilPasRouge\\FilPasRouge.csproj",
         "projectName": "FilPasRouge",
-        "projectPath": "d:\\cesi\\RIL_2\\Trimestre 1\\C#\\CESI-RIL-2019-master\\FilPasRouge\\FilPasRouge.csproj",
+        "projectPath": "D:\\cesi\\RIL_2\\Trimestre 1\\C#\\CESI-RIL-2019-master\\FilPasRouge\\FilPasRouge.csproj",
         "packagesPath": "C:\\Users\\sylvain\\.nuget\\packages\\",
-        "outputPath": "d:\\cesi\\RIL_2\\Trimestre 1\\C#\\CESI-RIL-2019-master\\FilPasRouge\\obj\\",
+        "outputPath": "D:\\cesi\\RIL_2\\Trimestre 1\\C#\\CESI-RIL-2019-master\\FilPasRouge\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

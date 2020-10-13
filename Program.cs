@@ -6,7 +6,24 @@ namespace FilPasRouge
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			if (args.Length < 1){
+				Console.Write("Ceci est une aide");
+			}else{
+				PremiereCommandes(args[0]);
+			}
+		}
+
+		public static void PremiereCommandes(string val){
+
+			switch (val)
+			{
+				case "Hello" : 
+					Console.Write("Hello World !");
+					break;				
+				default: 
+					Console.Write("Commande inconnue");
+					break;
+			}
 		}
 	}
 }
