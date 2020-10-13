@@ -1,67 +1,37 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Globalization;
 
-namespace FilPasRouge
-{
-	class Program
-	{
-		static void Main(string[] args)
-		{
+namespace FilPasRouge {
+	class Program {
+		static void Main (string[] args) {
 
-			string[] tabCommandes = {"Hello", "Add", "Sub", "Mul", "Div"};
-
-			if (args.Length < 1){
-				Console.Write("Liste des commandes disponnibles : \n\n");
-				for (int i = 0; i < tabCommandes.Length; i++)
-				{
-					Console.Write(tabCommandes[i] + "\n");
-				}				
-			}
-			else
+			List<IAction> availableActions = new List<IAction> ()
 			{
-				switch (args[0])
+				new Hello (),
+				new Add (),
+				new Sub (),
+				new Mul (),
+				new Div ()
+			};
+
+			if (args.Length < 1) {
+				Console.Write ("Liste des commandes disponnibles : \n\n");
+				foreach (var item in availableActions)
 				{
-					case "Hello" : 
-						Console.Write("Hello World !");
-						break;
-					case "Add" : 
-					case "Sub" :
-					case "Mul" :
-					case "Div" :
-						Calcul(args[0], float.Parse(args[1], CultureInfo.InvariantCulture), float.Parse(args[2], CultureInfo.InvariantCulture));
-						break;
-					default: 
-						Console.Write("Commande inconnue");
-						break;
+					Console.Write(" ► " + item.Description + "\n");
+				}
+			} 
+			else {
+				if (!availableActions.Exists(x => x.Name == args[0]))
+				{
+					Console.Write("Commande inconnue.");
+				}
+				else
+				{
+					availableActions.Find(x => x.Name == args[0]).Action(args);
 				}
 			}
-		}
-
-		public static void Calcul(string val, float nombre1, float nombre2){
-
-			float result = 0;
-			switch (val)
-			{
-				case "Add" : 
-					result = nombre1 + nombre2;
-					Console.Write("Resultat = " + result);
-					break;
-				case "Sub" : 
-					result = nombre1 - nombre2;
-					Console.Write("Resultat = " + result);
-					break;
-				case "Mul" : 
-					result = nombre1 * nombre2;
-					Console.Write("Resultat = " + result);
-					break;
-				case "Div" : 
-					result = nombre1 / nombre2;
-					Console.Write("Resultat = " + result);
-					break;				
-				default: 
-					Console.Write("Commande inconnue");
-					break;
-			}
-		}
+		}		
 	}
 }
