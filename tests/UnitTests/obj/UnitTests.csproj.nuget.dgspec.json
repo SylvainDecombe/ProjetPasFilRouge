@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\cesi\\RIL_2\\Trimestre 1\\C#\\CESI-RIL-2019-master\\FilPasRouge\\tests\\UnitTests\\UnitTests.csproj": {}
+  },
+  "projects": {
+    "D:\\cesi\\RIL_2\\Trimestre 1\\C#\\CESI-RIL-2019-master\\FilPasRouge\\src\\FilPasRouge.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\cesi\\RIL_2\\Trimestre 1\\C#\\CESI-RIL-2019-master\\FilPasRouge\\src\\FilPasRouge.csproj",
+        "projectName": "FilPasRouge",
+        "projectPath": "D:\\cesi\\RIL_2\\Trimestre 1\\C#\\CESI-RIL-2019-master\\FilPasRouge\\src\\FilPasRouge.csproj",
+        "packagesPath": "C:\\Users\\sylvain\\.nuget\\packages\\",
+        "outputPath": "D:\\cesi\\RIL_2\\Trimestre 1\\C#\\CESI-RIL-2019-master\\FilPasRouge\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sylvain\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\cesi\\RIL_2\\Trimestre 1\\C#\\CESI-RIL-2019-master\\FilPasRouge\\tests\\UnitTests\\UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\cesi\\RIL_2\\Trimestre 1\\C#\\CESI-RIL-2019-master\\FilPasRouge\\tests\\UnitTests\\UnitTests.csproj",
+        "projectName": "UnitTests",
+        "projectPath": "D:\\cesi\\RIL_2\\Trimestre 1\\C#\\CESI-RIL-2019-master\\FilPasRouge\\tests\\UnitTests\\UnitTests.csproj",
+        "packagesPath": "C:\\Users\\sylvain\\.nuget\\packages\\",
+        "outputPath": "D:\\cesi\\RIL_2\\Trimestre 1\\C#\\CESI-RIL-2019-master\\FilPasRouge\\tests\\UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sylvain\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\cesi\\RIL_2\\Trimestre 1\\C#\\CESI-RIL-2019-master\\FilPasRouge\\src\\FilPasRouge.csproj": {
+                "projectPath": "D:\\cesi\\RIL_2\\Trimestre 1\\C#\\CESI-RIL-2019-master\\FilPasRouge\\src\\FilPasRouge.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.5, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.9.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

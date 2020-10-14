@@ -1,0 +1,16 @@
+D:\cesi\RIL_2\Trimestre 1\C#\CESI-RIL-2019-master\FilPasRouge\src\bin\Debug\netcoreapp3.1\FilPasRouge.exe
+D:\cesi\RIL_2\Trimestre 1\C#\CESI-RIL-2019-master\FilPasRouge\src\bin\Debug\netcoreapp3.1\FilPasRouge.deps.json
+D:\cesi\RIL_2\Trimestre 1\C#\CESI-RIL-2019-master\FilPasRouge\src\bin\Debug\netcoreapp3.1\FilPasRouge.runtimeconfig.json
+D:\cesi\RIL_2\Trimestre 1\C#\CESI-RIL-2019-master\FilPasRouge\src\bin\Debug\netcoreapp3.1\FilPasRouge.runtimeconfig.dev.json
+D:\cesi\RIL_2\Trimestre 1\C#\CESI-RIL-2019-master\FilPasRouge\src\bin\Debug\netcoreapp3.1\FilPasRouge.dll
+D:\cesi\RIL_2\Trimestre 1\C#\CESI-RIL-2019-master\FilPasRouge\src\bin\Debug\netcoreapp3.1\FilPasRouge.pdb
+D:\cesi\RIL_2\Trimestre 1\C#\CESI-RIL-2019-master\FilPasRouge\src\obj\Debug\netcoreapp3.1\FilPasRouge.csprojAssemblyReference.cache
+D:\cesi\RIL_2\Trimestre 1\C#\CESI-RIL-2019-master\FilPasRouge\src\obj\Debug\netcoreapp3.1\FilPasRouge.AssemblyInfoInputs.cache
+D:\cesi\RIL_2\Trimestre 1\C#\CESI-RIL-2019-master\FilPasRouge\src\obj\Debug\netcoreapp3.1\FilPasRouge.AssemblyInfo.cs
+D:\cesi\RIL_2\Trimestre 1\C#\CESI-RIL-2019-master\FilPasRouge\src\obj\Debug\netcoreapp3.1\FilPasRouge.csproj.CoreCompileInputs.cache
+D:\cesi\RIL_2\Trimestre 1\C#\CESI-RIL-2019-master\FilPasRouge\src\obj\Debug\netcoreapp3.1\FilPasRouge.dll
+D:\cesi\RIL_2\Trimestre 1\C#\CESI-RIL-2019-master\FilPasRouge\src\obj\Debug\netcoreapp3.1\FilPasRouge.pdb
+D:\cesi\RIL_2\Trimestre 1\C#\CESI-RIL-2019-master\FilPasRouge\src\obj\Debug\netcoreapp3.1\FilPasRouge.genruntimeconfig.cache
+D:\cesi\RIL_2\Trimestre 1\C#\CESI-RIL-2019-master\FilPasRouge\src\bin\Debug\netcoreapp3.1\HtmlAgilityPack.dll
+D:\cesi\RIL_2\Trimestre 1\C#\CESI-RIL-2019-master\FilPasRouge\src\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\cesi\RIL_2\Trimestre 1\C#\CESI-RIL-2019-master\FilPasRouge\src\obj\Debug\netcoreapp3.1\FilPasRouge.csproj.CopyComplete
